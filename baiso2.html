@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baiso2</title>
+</head>
+<body>
+    <form method="POST" action="#">
+        <h1>Đăng ký tài khoản</h1>
+        <br><br>
+        <fieldset>
+            <legend>Thông tin cá nhân</legend>
+            <label><b>Họ và tên:</b> <input type="text" name="name" required></label>
+            <br><br>
+            <label><b>Email:</b> <input type="email" name="email" required></label>
+            <br><br>
+            <label><b>Số điện thoại:</b> <input type="tel" name="phone" required></label>
+            <br><br>
+            <label><b>Mật khẩu:</b> <input type="password" name="password" required></label>
+            <br><br>
+            <b>Giới tính:</b>
+            <label><input name="gender" value="nam" type="radio" required> Nam </label>
+            <label><input name="gender" value="nu" type="radio"> Nữ </label>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Thông tin bổ sung</legend>
+            <label><b>Ngày sinh:</b> <input type="date" name="birthday" required></label>
+            <br><br>
+            <label><b>Nghề nghiệp:</b>
+                <select name="nghenghiep">
+                    <option value="Sinhvien">Sinh viên</option>
+                    <option value="Giaovien">Giáo viên</option>
+                    <option value="Khac">Khác</option>
+                </select>
+            </label>
+        </fieldset>
+        <br><br>
+        <input type="submit" value="Đăng ký">
+        <input type="reset" value="Xóa">
+    </form>
+</body>
+</html>

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylebaiso2.css">
     <title>baiso2</title>
 </head>
 <body>
@@ -11,17 +12,18 @@
         <br><br>
         <fieldset>
             <legend>Thông tin cá nhân</legend>
-            <label><b>Họ và tên:</b> <input type="text" name="name" required></label>
+            <label><b>Họ và tên:</b> <input type="text" name="name" value="Nhap ho va ten" required></label>
             <br><br>
-            <label><b>Email:</b> <input type="email" name="email" required></label>
+            <label><b>Email:</b> <input type="email" name="email" value="example@gmail.com" required></label>
             <br><br>
-            <label><b>Số điện thoại:</b> <input type="tel" name="phone" required></label>
+            <label><b>Số điện thoại:</b> <input type="tel" name="phone" value="Nhap so dien thoai" required></label>
             <br><br>
             <label><b>Mật khẩu:</b> <input type="password" name="password" required></label>
             <br><br>
             <b>Giới tính:</b>
             <label><input name="gender" value="nam" type="radio" required> Nam </label>
             <label><input name="gender" value="nu" type="radio"> Nữ </label>
+            <label><input name="gender" value="khac" type="radio"> Khác </label>
         </fieldset>
         <br><br>
         <fieldset>
@@ -37,8 +39,8 @@
             </label>
         </fieldset>
         <br><br>
-        <input type="submit" value="Đăng ký">
-        <input type="reset" value="Xóa">
+        <input class="submit" type="submit" value="Đăng ký">
+        <input class="reset" type="reset" value="Xóa">
     </form>
 </body>
 </html>

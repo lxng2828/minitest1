@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+#avatar {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#background {
+    width: 100%;
+    height: 300px;
+}
+h1 {
+    padding-top: 100px;
+}
+
+table {
+    display: inline-table;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#c1 {
+    width: 50%;
+}

@@ -28,7 +28,7 @@ table {
     display: inline-table;
     border: 1px solid black;
     border-collapse: collapse;
-    width: 80%;
+    width: 800px;
 }
 
 th, td {
